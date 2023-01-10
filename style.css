@@ -21,6 +21,21 @@
     list-style-type: none;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-color: var(--main-bg);
+    font-weight:400;
+}
+main{
+    min-width: 600px;
+    z-index: 1;
+    display: flex;
+    margin: 1em;
+}
 
 
 
